@@ -66,10 +66,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -84,34 +84,34 @@ export default {
 			title: 'Text',
 			component: TextProperty,
 		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
 		style: {
 			title: 'Style',
 			component: StyleProperty,
 		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
 	},
 	image: {
 		general: {
@@ -122,72 +122,72 @@ export default {
 			title: 'Image',
 			component: ImageProperty,
 		},
-		filter: {
-			title: 'Filter',
-			component: ImageFilterProperty,
-		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
+		// filter: {
+		// 	title: 'Filter',
+		// 	component: ImageFilterProperty,
+		// },
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
 	},
 	triangle: {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
 		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
 		style: {
 			title: 'Style',
 			component: StyleProperty,
 		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
 	},
 	rect: {
 		general: {
@@ -214,10 +214,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -248,10 +248,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -282,10 +282,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -316,10 +316,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -350,10 +350,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
@@ -414,10 +414,10 @@ export default {
 			title: 'Animation',
 			component: AnimationProperty,
 		},
-		trigger: {
-			title: 'Trigger',
-			component: TriggerProperty,
-		},
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
 		userProperty: {
 			title: 'User Property',
 			component: UserProperty,
