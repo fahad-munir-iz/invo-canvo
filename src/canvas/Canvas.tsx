@@ -36,7 +36,7 @@ class InternalCanvas extends Component<CanvasProps, IState> implements CanvasIns
 	static defaultProps: CanvasProps = {
 		id: uuid(),
 		editable: true,
-		zoomEnabled: true,
+		zoomEnabled: false,
 		minZoom: 30,
 		maxZoom: 300,
 		responsive: true,
