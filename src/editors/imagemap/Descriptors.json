@@ -83,5 +83,20 @@
 				"name": "New shape"
 			}
 		}
+	],
+	"DRAWING": [
+		{
+			"name": "Line",
+			"description": "",
+			"type": "drawing",
+			"icon": {
+				"prefix": "fas",
+				"name": "minus"
+			},
+			"option": {
+				"type": "line",
+				"name": "New line"
+			}
+		}
 	]
 }
