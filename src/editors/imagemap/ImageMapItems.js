@@ -301,7 +301,8 @@ class ImageMapItems extends Component {
 									>
 										{this.handlers.transformList().map(item => this.renderItem(item))}
 									</Flex>
-								) : (
+								) 
+								: (
 									<Collapse
 										style={{ width: '100%' }}
 										bordered={false}
@@ -309,12 +310,15 @@ class ImageMapItems extends Component {
 										onChange={this.handlers.onChangeActiveKey}
 									>
 										{Object.keys(descriptors).map(key => (
-											<Collapse.Panel key={key} header={key} showArrow={!collapse}>
+											<>
+											{/* // <Collapse.Panel key={key} header={key} showArrow={!collapse}> */}
 												{this.renderItems(descriptors[key])}
-											</Collapse.Panel>
+												</>
+											// </Collapse.Panel>
 										))}
 									</Collapse>
-								))}
+								)
+								)}
 						</Flex>
 					</Scrollbar>
 				</Flex>
