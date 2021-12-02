@@ -279,15 +279,6 @@ class ImageMapItems extends Component {
 							style={{ margin: '0 4px' }}
 							onClick={this.handlers.onCollapse}
 						/>
-						{collapse ? null : (
-							<Input
-								style={{ margin: '8px' }}
-								placeholder={i18n.t('action.search-list')}
-								onChange={this.handlers.onSearchNode}
-								value={textSearch}
-								allowClear
-							/>
-						)}
 					</Flex>
 					<Scrollbar>
 						<Flex flex="1" style={{ overflowY: 'hidden' }}>
