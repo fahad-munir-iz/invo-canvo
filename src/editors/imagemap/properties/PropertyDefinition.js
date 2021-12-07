@@ -79,11 +79,13 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: TextProperty,
+			component2: StyleProperty,
 		},
-		text: {
-			title: 'Text',
-			component: TextProperty,
-		},
+		// text: {
+		// 	title: 'Text',
+		// 	component: TextProperty,
+		// },
 		// link: {
 		// 	title: 'Link',
 		// 	component: LinkProperty,
@@ -92,10 +94,10 @@ export default {
 		// 	title: 'Tooltip',
 		// 	component: TooltipProperty,
 		// },
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
 		// shadow: {
 		// 	title: 'Shadow',
 		// 	component: ShadowProperty,
@@ -117,11 +119,8 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
-		},
-		image: {
-			title: 'Image',
-			component: ImageProperty,
-		},
+			component1: ImageProperty,
+				},
 		// filter: {
 		// 	title: 'Filter',
 		// 	component: ImageFilterProperty,
@@ -159,6 +158,7 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: StyleProperty,
 		},
 		// link: {
 		// 	title: 'Link',
@@ -168,10 +168,10 @@ export default {
 		// 	title: 'Tooltip',
 		// 	component: TooltipProperty,
 		// },
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
 		// shadow: {
 		// 	title: 'Shadow',
 		// 	component: ShadowProperty,
@@ -193,108 +193,7 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
-		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		// trigger: {
-		// 	title: 'Trigger',
-		// 	component: TriggerProperty,
-		// },
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
-	},
-	circle: {
-		general: {
-			title: 'General',
-			component: GeneralProperty,
-		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		// trigger: {
-		// 	title: 'Trigger',
-		// 	component: TriggerProperty,
-		// },
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
-	},
-	polygon: {
-		general: {
-			title: 'General',
-			component: GeneralProperty,
-		},
-		link: {
-			title: 'Link',
-			component: LinkProperty,
-		},
-		tooltip: {
-			title: 'Tooltip',
-			component: TooltipProperty,
-		},
-		style: {
-			title: 'Style',
-			component: StyleProperty,
-		},
-		shadow: {
-			title: 'Shadow',
-			component: ShadowProperty,
-		},
-		animation: {
-			title: 'Animation',
-			component: AnimationProperty,
-		},
-		// trigger: {
-		// 	title: 'Trigger',
-		// 	component: TriggerProperty,
-		// },
-		userProperty: {
-			title: 'User Property',
-			component: UserProperty,
-		},
-	},
-	line: {
-		general: {
-			title: 'General',
-			component: GeneralProperty,
+			component1: StyleProperty,
 		},
 		// link: {
 		// 	title: 'Link',
@@ -304,10 +203,119 @@ export default {
 		// 	title: 'Tooltip',
 		// 	component: TooltipProperty,
 		// },
-		style: {
-			title: 'Style',
-			component: StyleProperty,
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
+	},
+	circle: {
+		general: {
+			title: 'General',
+			component: GeneralProperty,
+			component1: StyleProperty,
 		},
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
+	},
+	polygon: {
+		general: {
+			title: 'General',
+			component: GeneralProperty,
+			component1: StyleProperty,
+		},
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
+		// shadow: {
+		// 	title: 'Shadow',
+		// 	component: ShadowProperty,
+		// },
+		// animation: {
+		// 	title: 'Animation',
+		// 	component: AnimationProperty,
+		// },
+		// trigger: {
+		// 	title: 'Trigger',
+		// 	component: TriggerProperty,
+		// },
+		// userProperty: {
+		// 	title: 'User Property',
+		// 	component: UserProperty,
+		// },
+	},
+	line: {
+		general: {
+			title: 'General',
+			component: GeneralProperty,
+			component1: StyleProperty,
+		},
+		// link: {
+		// 	title: 'Link',
+		// 	component: LinkProperty,
+		// },
+		// tooltip: {
+		// 	title: 'Tooltip',
+		// 	component: TooltipProperty,
+		// },
+		// style: {
+		// 	title: 'Style',
+		// 	component: StyleProperty,
+		// },
 		// shadow: {
 		// 	title: 'Shadow',
 		// 	component: ShadowProperty,
@@ -363,31 +371,34 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: VideoProperty,
 		},
-		video: {
-			title: 'Video',
-			component: VideoProperty,
-		},
+		// video: {
+		// 	title: 'Video',
+		// 	component: VideoProperty,
+		// },
 	},
 	element: {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: ElementProperty,
 		},
-		video: {
-			title: 'Element',
-			component: ElementProperty,
-		},
+		// video: {
+		// 	title: 'Element',
+		// 	component: ElementProperty,
+		// },
 	},
 	iframe: {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: IframeProperty,
 		},
-		video: {
-			title: 'Iframe',
-			component: IframeProperty,
-		},
+		// video: {
+		// 	title: 'Iframe',
+		// 	component: IframeProperty,
+		// },
 	},
 	svg: {
 		general: {
@@ -427,10 +438,11 @@ export default {
 		general: {
 			title: 'General',
 			component: GeneralProperty,
+			component1: ChartProperty,
 		},
-		chartOption: {
-			title: 'Chart Option',
-			component: ChartProperty,
-		},
+		// chartOption: {
+		// 	title: 'Chart Option',
+		// 	component: ChartProperty,
+		// },
 	},
 };

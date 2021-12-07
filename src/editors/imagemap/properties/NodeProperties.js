@@ -42,6 +42,22 @@ class NodeProperties extends Component {
 											form,
 											selectedItem,
 										)}
+										{PropertyDefinition[selectedItem.type][key]?.component1 && PropertyDefinition[selectedItem.type][key].component1.render(
+											canvasRef,
+											form,
+											selectedItem,
+										)}
+											{PropertyDefinition[selectedItem.type][key]?.component2 && PropertyDefinition[selectedItem.type][key].component2.render(
+											canvasRef,
+											form,
+											selectedItem,
+										)}
+
+											{PropertyDefinition[selectedItem.type][key]?.component3 && PropertyDefinition[selectedItem.type][key].component3.render(
+											canvasRef,
+											form,
+											selectedItem,
+										)}
 									</Panel>
 								);
 							})
@@ -55,6 +71,7 @@ class NodeProperties extends Component {
 									color: 'rgba(0, 0, 0, 0.45)',
 									fontSie: 16,
 									padding: 16,
+									background : 'red'
 								}}
 							>
 								<List />

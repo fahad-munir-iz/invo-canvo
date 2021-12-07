@@ -16,6 +16,7 @@ const defaultStyle = {
 };
 
 class AceEditor extends Component {
+
     handlers = {
         onChangeHTML: debounce((value) => {
             this.setState({
